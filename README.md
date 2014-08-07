@@ -8,4 +8,6 @@ The query position is also specified with the help of a PGN file. The board posi
 The program is packaged with a build.xml file and hence is easy to load in Eclipse or Netbeans IDE.
 The input to the program is a configuration (java properties) file where you can specify the location of the files (PGN games) to index. You can execute multiple queries in batch by specifying a query PGN file in the configuration file.
 
+The program contains a web interface for the retriever. The servlet classes are provided in the servlets folder and the accessory javascript can be found in the web directory.
+
 For more details about the algorithm, refer to the paper "Retrieval of similar chess positions" published in SIGIR '14.
