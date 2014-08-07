@@ -1,0 +1,68 @@
+/* Css rules for board with 60x60 pixel squares */
+.ChessBoardInner60{
+	width:480px;
+	height:480px;
+	background-image:url('../images/board-bg-brown-480.png');
+	border:1px solid #000;
+	top:0px;
+}
+
+.ChessBoard60{
+	width:495px;
+	height:500px;
+	padding:0px;
+
+}
+.ChessPiece60{
+	width:60px;
+	height:60px;
+	
+}
+
+/* Css rules for board with 45x45 pixel squares */
+.ChessBoardInner45{
+	width:360px;
+	height:360px;
+	background-image:url('../images/board-bg-brown.png');
+	border:1px solid #000;
+	top:0px;
+}
+
+.ChessBoard45{
+	width:375px;
+	height:380px;
+	padding:0px;
+
+}
+.ChessPiece45{
+	width:45px;
+	height:45px;
+}
+/* Css rules for board with 30x30 pixel squares */
+.ChessBoardInner30{
+	width:240px;
+	height:240px;
+	background-image:url('../images/board-bg-brown-240.png');
+	border:1px solid #000;
+	top:0px;
+}
+
+.ChessBoard30{
+	width:255px;
+	height:260px;
+	padding:0px;
+
+}
+.ChessPiece45{
+	width:30px;
+	height:30px;
+}
+.ChessBoardLabel45{
+	font-size:0.9em;
+}
+
+.ChessBoardLabel{	/* Labels A-F, 1-8 around chess board */
+	font-weight:bold;
+}
+
+

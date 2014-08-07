@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>ResultDisplayer</servlet-name>
+        <servlet-class>servlets.ResultDisplayer</servlet-class>
+        <init-param>
+            <param-name>configFile</param-name>
+            <param-value>/mnt/sdb2/netbeans-7.2/projects/ChessPosSearch/web/init.properties</param-value>
+        </init-param>
+    </servlet>
+    <servlet>
+        <servlet-name>RelJudgementHandler</servlet-name>
+        <servlet-class>servlets.RelJudgementHandler</servlet-class>
+        <init-param>
+            <param-name>configFile</param-name>
+            <param-value>/mnt/sdb2/netbeans-7.2/projects/ChessPosSearch/web/init.properties</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResultDisplayer</servlet-name>
+        <url-pattern>/ResultDisplayer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RelJudgementHandler</servlet-name>
+        <url-pattern>/RelJudgementHandler</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            120
+        </session-timeout>
+    </session-config>
+</web-app>
